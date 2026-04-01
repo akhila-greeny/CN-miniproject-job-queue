@@ -103,18 +103,24 @@ If a worker crashes before completing a job:
 ## 🎯 Example Output
 
 ### Server
+```
 -[SERVER] Job queued: {'job_id': 1, 'task': 'task_1'}
 -[SERVER] Assigned job 1
 -[SERVER] Job 1 done
+```
 
 ### Worker
+```
 -[WORKER] Got job 1
 -[WORKER] Finished job 1
+```
 
 ### Client
+```
 [CLIENT] JOB_RECEIVED
 [CLIENT] JOB_RECEIVED
 [CLIENT] JOB_RECEIVED
+```
 
 ---
 
